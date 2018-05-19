@@ -41,21 +41,27 @@ Go ahead - try it! Click the Sandbox icon.
 
 ![IDE](https://cl.ly/r3tL/Image%202018-04-21%20at%205.55.12%20PM.png)
 
-### `pwd`
+### `pwd`: Print Working Directory
 
 We're going to learn about the command line by planning for a trip. In IDE Sandbox, your terminal is located at the bottom of the screen. In your terminal, type `pwd`. (stop and have all students do this) `pwd` stands for print working directory. It will tell you where you are currently "standing" in terms of directories. A directory is just a fancy shmancy word for a folder.
 
 A directory can contain one of two things - files or other directories. The directories on your computer are nested inside of each other, like a Russian doll or a tree structure. (draw the tree structure out as you build it)
 
-### `ls`
+### `ls`: List 
 
-Let's check what directories are within the directory where you are standing by using `ls`, which stands for list (have students do this).
+Let's check what directories a.k.a folders are within the directory where you are. Use `ls`, which stands for list (have students do this).
 
-### `mkdir`
+#### CFU
+1. Ask students how many list they have in the directory/folder they are in 
+2. Ask students how is the list ordered (alphabetically) 
 
-Create a new directory called "development", using `mkdir`. This stands for make directory. (have students do this) `mkdir development`
+### `mkdir`: Make Directory
 
-### `cd`
+Now that we know how many items you have in the directory/folder you are in, we are going to make more directory/folders with our terminal to prepare us to code! 
+
+Create a new directory called "development", using `mkdir`. This stands for make directory or making a folder. (have students do this) `mkdir development`
+
+### `cd`: Command 
 
 Change directories using `cd` command. `cd` into development. (stop and have all students do this) `cd development`
 
@@ -87,13 +93,13 @@ touch pyramids.txt
 
 Open the file using the file browser on the left navigation bar. (pause and have students create files with text.)
 
-### `rm`
+### `rm`: Remove
 
 Remove a file that you no longer want using rm (I don't want to see eiffel_tower.txt anymore) `rm eiffel_tower.txt`
 
 Remove an entire directory using `rm -rf` (remove paris directory) `rm -rf paris`
 
-### `mv`
+### `mv`: Move 
 
 Accidentally place a file in the wrong directory so we need to move it. (`washington_monument.txt` in `new_york` directory needs to be moved to `washington`)
 

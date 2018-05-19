@@ -34,7 +34,6 @@ Learn gives all students a Sandbox Developer Environment so that they can play w
 Go ahead - try it! Click the Sandbox icon.
 
 ### Parts of the Sandbox/IDE
-
 1. The File Tree - This lists folders and files that you have in your IDE.
 1. The Text Editor - This is where you write code.
 1. The Terminal - This is where you execute command line instructions a.k.a. where you tell the program to run your code. 
@@ -53,7 +52,7 @@ Let's check what directories a.k.a folders are within the directory where you ar
 
 #### CFU
 1. Ask students how many list they have in the directory/folder they are in 
-2. Ask students how is the list ordered (alphabetically) 
+1. Ask students how is the list ordered (alphabetically) 
 
 ### `mkdir`: Make Directory
 
@@ -61,7 +60,13 @@ Now that we know how many items you have in the directory/folder you are in, we 
 
 Create a new directory called "development", using `mkdir`. This stands for make directory or making a folder. (have students do this) `mkdir development`
 
-### `cd`: Command 
+#### CFU 
+1. Have students input `ls`, how many list do they have now that they've made `development`? 
+
+### `cd`: Change Directory 
+
+How do we get around the directory? The easy way is to click on the directory section on the left side of your IDE, but there is also another way of navigating the directory through our terminal. 
+1. Use `cd` to move *one* directory down 
 
 Change directories using `cd` command. `cd` into development. (stop and have all students do this) `cd development`
 
